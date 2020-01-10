@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginStart="@dimen/margin10"
+    android:layout_marginTop="@dimen/margin5"
+    android:layout_marginEnd="@dimen/margin15"
+    android:layout_marginBottom="@dimen/margin5"
+    tools:background="#0090FF">
+
+    <TextView
+        android:id="@+id/name_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/name_city"
+        android:textColor="#FFFBFB"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/info_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_city"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/text_info"
+        android:textColor="@color/color_white"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/anh"
+        android:layout_width="70.17dp"
+        android:layout_height="51.28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/margin10"
+        android:layout_marginBottom="@dimen/margin10"
+        android:contentDescription="@string/de_infor"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_city"
+        android:layout_marginBottom="@dimen/margin10"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/template"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin60"
+            android:text="@string/tem_place"
+            android:textColor="@color/color_white"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/change_rain"
+            android:layout_width="15.64dp"
+            android:layout_height="15.96dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/ic_launcher_background"
+            android:contentDescription="@string/rain" />
+
+        <TextView
+            android:id="@+id/kNM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin5"
+            android:layout_marginTop="@dimen/margin60"
+            android:text="@string/text_knm"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_size15" />
+
+        <ImageView
+            android:id="@+id/img_humidity"
+            android:layout_width="15.64dp"
+            android:layout_height="15.96dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_launcher_background"
+            android:contentDescription="@string/info_humidity" />
+
+        <TextView
+            android:id="@+id/doAm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/text_humidity"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_size15" />
+
+    </LinearLayout>
+</RelativeLayout>

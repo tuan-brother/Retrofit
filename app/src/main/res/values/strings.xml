@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Retrofit</string>
+    <string name="tv_tt">Thời tiết hiện tại</string>
+    <string name="text_humidity">Độ ẩm</string>
+    <string name="text_knm">Knm</string>
+    <string name="name_city">The lilac Field</string>
+    <string name="text_info">Kharkov region</string>
+    <string name="tem_place">Nhiệt độ</string>
+    <string name="de_infor">Nhiệt độ</string>
+    <string name="info_humidity">TODO</string>
+    <string name="rain">TODO</string>
+</resources>
